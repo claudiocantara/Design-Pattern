@@ -1,0 +1,30 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "Estudo de Design Pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiocantara/Design-Pattern.git"
+  },
+  "author": "Claudio Alcantara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiocantara/Design-Pattern/issues"
+  },
+  "homepage": "https://github.com/claudiocantara/Design-Pattern#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
+}
